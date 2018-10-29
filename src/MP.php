@@ -71,7 +71,7 @@ class MP
         file_put_contents($this->path . "wechatMpHack/qrcode/{$this->account}.png", $img);
         $image_file = $this->path . "/wechatMpHack/qrcode/{$this->account}.png";
         $base64_img = MPTools::imgToBase64($image_file);
-        return array('status' => 1, 'vcode' => $base64_img, 'message' => '已成功获取到登陆二维码！');
+        return array('status' => 1, 'qrcode' => $base64_img, 'message' => '已成功获取到登陆二维码！');
     }
 
 
