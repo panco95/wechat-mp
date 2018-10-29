@@ -20,10 +20,9 @@ composer require panco/wechat-mp dev-master
 
 4、有了token和cookie可以模拟微信公众号后台所有操作，欢迎有兴趣的朋友补充此项目
 
-其他功能正在完善中！欢迎各位朋友一起完善此项目！
 
+MVC框架使用示例：(tp5,laravel)
 
-MVC框架使用示例：
 class User extends Api
 {
 
@@ -53,3 +52,7 @@ class User extends Api
         }
     }
 }
+
+
+其他功能正在完善中！欢迎各位朋友一起完善此项目！
+
