@@ -13,6 +13,7 @@
     "ext-curl": "*",
     "ext-json": "*"
   },
+  "version": "0.1",
   "autoload": {
     "psr-4": {
       "Panco\\MP\\": "src"
