@@ -1,0 +1,21 @@
+{
+  "name": "panco/wechat-mp",
+  "description": "A wechat Mp hack!",
+  "authors": [
+    {
+      "name": "Panco",
+      "email": "1129443982@qq.com"
+    }
+  ],
+  "license": "Apache-2.0",
+  "require": {
+    "php": ">=5.4.0",
+    "ext-curl": "*",
+    "ext-json": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Panco\\MP\\": "src"
+    }
+  }
+}
