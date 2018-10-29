@@ -6,6 +6,9 @@ Wechat-Mp
 
 OK：模拟登陆微信公众号后台
 
+安装方法：
+composer require panco/wechat-mp
+
 使用方法：
 
 1、$mp = new \Panco\MP\MP($account,$password,$path)，account是登陆的用户名或者邮箱，password是登陆密码，path是临时目录路径(用来存储cookie和二维码/验证码)
